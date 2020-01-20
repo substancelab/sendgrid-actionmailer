@@ -28,6 +28,8 @@ module SendGridActionMailer
         m.add_personalization(to_personalizations(mail))
       end
 
+      mail.content_type = nil
+
       add_api_key(sendgrid_mail, mail)
       add_content(sendgrid_mail, mail)
       add_send_options(sendgrid_mail, mail)
