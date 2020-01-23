@@ -26,6 +26,8 @@ module SendGridActionMailer
         m.subject = mail.subject || ""
       end
 
+      mail.content_type = nil
+
       add_personalizations(sendgrid_mail, mail)
       add_api_key(sendgrid_mail, mail)
       add_content(sendgrid_mail, mail)
