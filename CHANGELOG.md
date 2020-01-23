@@ -12,7 +12,7 @@
 
 ### Removed
 
--
+- Compatibility with mail gems before version 2.7
 
 
 ## 2.5.0 - 2020-01-23
