@@ -1,5 +1,12 @@
 # Change Log
 
+## Unreleased
+
+### Fixed
+
+- Emails generated via Dynamic Templates now contain both their text/plain and
+  text/html parts.
+
 ## 2.4.0 - 2019-07-9
 
 ### Changed
